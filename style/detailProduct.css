@@ -1,0 +1,75 @@
+.detailDesc {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.top-detailDesc {
+    margin-bottom: 40px;
+}
+
+.post-rate {
+    /* background-color: red; */
+    position: relative;
+    height: 105px;
+}
+
+.rating {
+    max-width: 600px;
+    margin: auto;
+}
+
+textarea {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+}
+
+button {
+    width: 60px;
+    height: 25px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.view-rate-container {
+    margin-bottom: 100px;
+}
+
+.view-rate {
+    display: flex;
+    align-items: center;
+}
+
+.left-view-rate {
+    padding: 0 20px;
+    width: 200px;
+}
+
+.right-view-rate {
+    width: 100%;
+}
+
+.top-right-view-rate {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.top-right-view-rate-stars {
+    display: flex;
+}
+
+.resizeCol{
+    width: 600px;
+    padding: 0 20px;
+}
+
+.rating-star {
+    margin: 10px 0;
+}
+
+#rating-comment-value {
+    /* display: none; */
+}

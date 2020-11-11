@@ -1,0 +1,85 @@
+.content {
+    width: 100%;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 100px auto;
+    /* background: red; */
+    padding: 0 60px;
+}
+
+.input input {
+    margin: 10px 0;
+}
+
+input {
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px grey solid;
+}
+
+.msg {
+    text-align: center;
+    color: red;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    margin: 40px auto;
+}
+
+.submitBtn {
+    /* display: none; */
+}
+
+/* .check {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin:auto;
+} */
+
+/* pop up */
+.bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0, 0.7);
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.pop-upContent {
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    transform: rotate(45deg);
+    font-size: 48px;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.contentDalam {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.check {
+    font-weight: bold;
+    color: red;
+}
